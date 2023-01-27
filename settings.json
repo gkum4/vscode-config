@@ -1,0 +1,94 @@
+{
+  "editor.tabSize": 2,
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Fira Code",
+
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.suggestSelection": "first",
+  //"editor.parameterHints.enabled": false,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.autoClosingBrackets": "always",
+
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [100, 120],
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "terminal.integrated.shell.osx": "/bin/zsh",
+
+  "[java]": {
+      "editor.tabSize": 4,
+  },
+  "[javascript]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      }
+  },
+  "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      }
+  },
+  "[typescript]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      }
+  },
+  "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      }
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+
+  "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+  },
+
+  "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "gitlens.gitCommands.skipConfirmations": [
+      "fetch:command",
+      "switch:command"
+  ],
+  "C_Cpp.updateChannel": "Insiders",
+  "workbench.tree.indent": 14,
+  "vsicons.dontShowNewVersionMessage": true,
+  "java.import.gradle.java.home": "/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home",
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "[swift]": {
+  }
+}
